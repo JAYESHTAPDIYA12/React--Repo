@@ -1,0 +1,54 @@
+/* ye css provide karega google ko */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    background-color: aqua;
+}
+.heading{
+    background-color: chocolate;
+    color: black;
+    font-size: medium;
+    align-items: center;
+    display: flex;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+img{
+    height: 100px;
+}
+.footter{
+    text-align: center;
+   
+}
+.main_note{
+    text-align: center;
+    border:none;
+}
+textarea{
+    border:none;
+}
+input{
+    border: none;
+    
+}
+.note{
+    display: flex;
+    background:red;
+}
+.note_1{
+    /* flex-direction: column; */
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid red;
+    /* border-radius: 50px; */
+    /* height: 100px; */
+    width: 250px;
+    /* overflow: auto; */
+}

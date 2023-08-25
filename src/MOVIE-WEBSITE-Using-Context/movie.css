@@ -1,0 +1,67 @@
+
+
+body{
+    background-color: #33d6ff;
+}
+
+
+
+
+.each_item{ 
+    padding: 5px;
+    margin-left: 25px;
+    /* background-color: burlywood; */
+    height:450px ;
+    width: 350px;
+    
+}
+
+.card{
+    background-color: lightgray;
+}
+.image{
+    width: 250px;
+    height: 350px;
+}
+
+a{
+    text-decoration: none;
+}
+.card:hover{
+    background-color: grey;
+
+}
+
+a:hover h3{
+    transform: translateY(-1.5rem);
+    display: inline-block;
+}
+
+a:hover img{
+    transform: scale(1.1);
+}
+
+
+.naem{
+    background-color: aquamarine;
+    width:1200px;
+    margin-top: 150px;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+footer{
+    
+}
+
+.card_main{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    /* box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; */
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  

@@ -1,0 +1,48 @@
+/* this file is the css file for the menu */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+
+
+
+/* color of main */
+
+.main_frame{
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+
+
+.image{
+    width: 250px;
+    height: 250px;
+}
+.image:hover{
+    width: 300px;
+    transition: width 1s;
+}
+
+
+.btn:hover{
+    color:red;
+}
+.card:hover{
+transform: scale(1.2);    
+}
+
+.card{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.list{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+
+}
+.list >button:hover{
+    background-color:cornsilk;
+}
